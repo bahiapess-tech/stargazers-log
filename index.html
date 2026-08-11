@@ -1,11 +1,21 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-  <head> 
-    <meta charset="utf-8"> 
-    <title>Diário do Stargazers</title> 
-  </head> 
-  <body> 
-    <h1>Diário do Stargazers</h1> 
-    <p>Um registro dos repositórios que favoritei.</p> 
-  </body> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diário do Stargazers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Diário do Stargazers</h1>
+        <p class="subtitle">Repositórios marcados com estrela e acompanhados por você.</p>
+      </header>
+
+      <ul id="starred-list" class="starred-list" aria-live="polite"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
