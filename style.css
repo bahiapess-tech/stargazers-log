@@ -64,8 +64,15 @@ h1 {
   text-decoration: none;
 }
 
-.repo-name a:hover {
+.repo-name a:hover,
+.repo-name a:focus-visible {
   text-decoration: underline;
+}
+
+.repo-name a:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 .star-badge {
